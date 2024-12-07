@@ -10,7 +10,13 @@ public class Atividade {
     /**
      * Default constructor
      */
-    public Atividade() {
+    public Atividade(String nome, int duracao, String local, String objetivo, String resumo, int id) {
+        this.nome = nome;
+        this.duracao = duracao;
+        this.local = local;
+        this.objetivo = objetivo;
+        this.resumo = resumo;
+        this.id = id;
     }
 
     /**
@@ -47,90 +53,84 @@ public class Atividade {
      * @return
      */
     public String getNome() {
-        // TODO implement here
-        return "";
+        return this.nome;
     }
 
     /**
      * @param value
      */
     public void setNome(String value) {
-        // TODO implement here
+        this.nome = value;
     }
 
     /**
      * @return
      */
     public int getDuracao() {
-        // TODO implement here
-        return 0;
+        return this.duracao;
     }
 
     /**
      * @param value
      */
     public void setDuracao(int value) {
-        // TODO implement here
+        this.duracao = value;
     }
 
     /**
      * @return
      */
     public String getLocal() {
-        // TODO implement here
-        return "";
+        return this.local;
     }
 
     /**
      * @param value
      */
     public void setLocal(String value) {
-        // TODO implement here
+        this.local = value;
     }
 
     /**
      * @return
      */
     public String getObjetivo() {
-        // TODO implement here
-        return "";
+        return this.objetivo;
     }
 
     /**
      * @param value
      */
     public void setObjetivo(String value) {
-        // TODO implement here
+        this.objetivo = value;
     }
 
     /**
      * @return
      */
     public String getResumo() {
-        // TODO implement here
-        return "";
+        return this.resumo;
     }
 
     /**
      * @param value
      */
     public void setResumo(String value) {
-        // TODO implement here
+        this.resumo = value;
     }
 
     /**
      * @return
      */
     public int getId() {
-        // TODO implement here
-        return 0;
+        return this.id;
     }
 
     /**
      * @param value
      */
     public void setId(int value) {
-        // TODO implement here
+        this.id = value;
     }
 
 }
