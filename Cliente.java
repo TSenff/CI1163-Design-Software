@@ -10,112 +10,107 @@ public class Cliente {
     /**
      * Default constructor
      */
-    public Cliente() {
+    public Cliente(String nome, String email, long cpfCnpj, String telefone, String contato) {
+        this.nome = nome;
+        this.email = email;
+        this.cpfCnpj = cpfCnpj;
+        this.telefone = telefone;     
+        this.contato = contato;
     }
 
     /**
-     * 
+     *
      */
     private String nome;
 
     /**
-     * 
+     *
      */
     private String email;
 
     /**
-     * 
+     *
      */
-    private long int cpfCnpj;
+    private long cpfCnpj;
 
     /**
-     * 
+     *
      */
     private String telefone;
 
     /**
-     * 
+     *
      */
     private String contato;
-
-    /**
-     * 
-     */
-    public void Attribute5;
 
     /**
      * @return
      */
     public String getNome() {
-        // TODO implement here
-        return "";
+        return this.nome; 
     }
 
     /**
      * @param value
      */
     public void setNome(String value) {
-        // TODO implement here
+        this.nome = value;
     }
 
     /**
      * @return
      */
     public String getEmail() {
-        // TODO implement here
-        return "";
+        return this.email;
     }
 
     /**
      * @param value
      */
     public void setEmail(String value) {
-        // TODO implement here
+        this.email = value;
     }
 
     /**
      * @return
      */
-    public long int getCpfCnpj() {
-        // TODO implement here
-        return null;
+    public long getCpfCnpj() {
+        return this.cpfCnpj;
     }
 
     /**
      * @param value
      */
-    public void setCpfCnpj(long int value) {
-        // TODO implement here
+    public void setCpfCnpj(long value) {
+        this.cpfCnpj = value;
     }
 
     /**
      * @return
      */
     public String getTelefone() {
-        // TODO implement here
-        return "";
+        return this.telefone;
     }
 
     /**
      * @param value
      */
     public void setTelefone(String value) {
-        // TODO implement here
+        this.telefone = value;
     }
 
     /**
      * @return
      */
     public String getContato() {
-        // TODO implement here
-        return "";
+        return this.contato;
     }
 
     /**
      * @param value
      */
     public void setContato(String value) {
-        // TODO implement here
+        this.contato = value;
     }
 
 }
