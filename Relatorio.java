@@ -10,7 +10,8 @@ public class Relatorio {
     /**
      * Default constructor
      */
-    public Relatorio() {
+    public Relatorio(int tipo) {
+        this.tipo = tipo;
     }
 
 
@@ -23,38 +24,21 @@ public class Relatorio {
      * @return
      */
     public String geraPdf() {
-        // TODO implement here
         return "";
     }
 
     /**
      * @return
      */
-    public void get() {
-        // TODO implement here
-        return null;
-    }
-
-    /**
-     * @param value
-     */
-    public void set(void value) {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
     public int getTipo() {
-        // TODO implement here
-        return 0;
+        return this.tipo;
     }
 
     /**
      * @param value
      */
     public void setTipo(int value) {
-        // TODO implement here
+        this.tipo = value;
     }
 
 }
