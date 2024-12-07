@@ -10,7 +10,11 @@ public class Projeto {
     /**
      * Default constructor
      */
-    public Projeto() {
+    public Projeto(Date dataInicio, Date prazo, String descricao, String contrato) {
+        this.dataInicio = dataInicio;
+        this.prazo = prazo;
+        this.descricao = descricao;
+        this.contrato = contrato;
     }
 
     /**
@@ -44,7 +48,6 @@ public class Projeto {
      * @return
      */
     public Etapa cadastrarEtapa(String cronograma, int status) {
-        // TODO implement here
         return null;
     }
 
@@ -53,8 +56,6 @@ public class Projeto {
      * @return
      */
     public void associarItemFiscal(ItemFiscal iF) {
-        // TODO implement here
-        return null;
     }
 
     /**
@@ -62,91 +63,82 @@ public class Projeto {
      * @return
      */
     public void cadastraDesenvolvedor(Desenvolvedor ec ) {
-        // TODO implement here
-        return null;
     }
 
     /**
      * @return
      */
     public void imprimeTela() {
-        // TODO implement here
-        return null;
     }
 
     /**
      * @return
      */
     public Date getDataInicio() {
-        // TODO implement here
-        return null;
+        return this.dataInicio;
     }
 
     /**
      * @param value
      */
     public void setDataInicio(Date value) {
-        // TODO implement here
+        this.dataInicio = value;
     }
 
     /**
      * @return
      */
     public Date getPrazo() {
-        // TODO implement here
-        return null;
+        return this.prazo;
     }
 
     /**
      * @param value
      */
     public void setPrazo(Date value) {
-        // TODO implement here
+        this.prazo = value;
     }
 
     /**
      * @return
      */
     public String getDescricao() {
-        // TODO implement here
-        return "";
+        return this.descricao ;
     }
 
     /**
      * @param value
      */
     public void setDescricao(String value) {
-        // TODO implement here
+        this.descricao = value;
     }
 
     /**
      * @return
      */
     public String getContrato() {
-        // TODO implement here
-        return "";
+        return this.contrato;
     }
 
     /**
      * @param value
      */
     public void setContrato(String value) {
-        // TODO implement here
+        this.contrato = value;
     }
 
     /**
      * @return
      */
     public int getId() {
-        // TODO implement here
-        return 0;
+        return this.id;
     }
 
     /**
      * @param value
      */
     public void setId(int value) {
-        // TODO implement here
+        this.id = id;
     }
 
 }
