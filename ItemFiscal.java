@@ -10,7 +10,9 @@ public class ItemFiscal {
     /**
      * Default constructor
      */
-    public ItemFiscal() {
+    public ItemFiscal(Date data, double valor) {
+        this.data = data;
+        this.valor = valor;
     }
 
     /**
@@ -32,45 +34,42 @@ public class ItemFiscal {
      * @return
      */
     public Date getData() {
-        // TODO implement here
-        return null;
+        return this.data;
     }
 
     /**
      * @param value
      */
     public void setData(Date value) {
-        // TODO implement here
+        this.data = value;
     }
 
     /**
      * @return
      */
     public double getValor() {
-        // TODO implement here
-        return 0.0d;
+        return this.valor;
     }
 
     /**
      * @param value
      */
     public void setValor(double value) {
-        // TODO implement here
+        this.valor = value;
     }
 
     /**
      * @return
      */
     public int getTipo() {
-        // TODO implement here
-        return 0;
+        return this.tipo;
     }
 
     /**
      * @param value
      */
     public void setTipo(int value) {
-        // TODO implement here
+        this.tipo = value;
     }
 
 }
