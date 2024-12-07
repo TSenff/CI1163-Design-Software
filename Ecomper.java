@@ -10,7 +10,12 @@ public class Ecomper implements Desenvolvedor, Participante {
     /**
      * Default constructor
      */
-    public Ecomper() {
+    public Ecomper(String nome, long cpf, String email, String cargo, int id) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.email = email;
+        this.cargo = cargo;
+        this.id = id;
     }
 
     /**
@@ -21,7 +26,7 @@ public class Ecomper implements Desenvolvedor, Participante {
     /**
      * 
      */
-    private long int cpf;
+    private long cpf;
 
     /**
      * 
@@ -42,135 +47,70 @@ public class Ecomper implements Desenvolvedor, Participante {
      * @return
      */
     public String getNome() {
-        // TODO implement here
-        return "";
+        return this.nome;
     }
 
     /**
      * @param value
      */
     public void setNome(String value) {
-        // TODO implement here
+        this.nome = value;
     }
 
     /**
      * @return
      */
-    public String getCpf() {
-        // TODO implement here
-        return "";
+    public long getCpf() {
+        return this.cpf;
     }
 
     /**
      * @param value
      */
-    public void setCpf(String value) {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
-    public String getEmail() {
-        // TODO implement here
-        return "";
-    }
-
-    /**
-     * @param value
-     */
-    public void setEmail(String value) {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
-    public String getCargo() {
-        // TODO implement here
-        return "";
-    }
-
-    /**
-     * @param value
-     */
-    public void setCargo(String value) {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
-    public String getNome() {
-        // TODO implement here
-        return "";
-    }
-
-    /**
-     * @param value
-     */
-    public void setNome(String value) {
-        // TODO implement here
-    }
-
-    /**
-     * @return
-     */
-    public long int getCpf() {
-        // TODO implement here
-        return null;
-    }
-
-    /**
-     * @param value
-     */
-    public void setCpf(long int value) {
-        // TODO implement here
+    public void setCpf(long value) {
+        this.cpf = value;
     }
 
     /**
      * @return
      */
     public String getEmail() {
-        // TODO implement here
-        return "";
+        return this.email;
     }
 
     /**
      * @param value
      */
     public void setEmail(String value) {
-        // TODO implement here
+        this.email = value;
     }
 
     /**
      * @return
      */
     public String getCargo() {
-        // TODO implement here
-        return "";
+        return this.cargo;
     }
 
     /**
      * @param value
      */
     public void setCargo(String value) {
-        // TODO implement here
+        this.cargo = value;
     }
 
     /**
      * @return
      */
     public int getId() {
-        // TODO implement here
-        return 0;
+        return this.id;
     }
 
     /**
      * @param value
      */
     public void setId(int value) {
-        // TODO implement here
+        this.id = value;
     }
 
 }
