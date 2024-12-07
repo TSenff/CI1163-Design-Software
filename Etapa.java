@@ -10,7 +10,9 @@ public class Etapa {
     /**
      * Default constructor
      */
-    public Etapa() {
+    public Etapa(String cronograma, int status) {
+        this.cronograma = cronograma;
+        this.status = status;
     }
 
     /**
@@ -21,36 +23,34 @@ public class Etapa {
     /**
      * 
      */
-    private Int status;
+    private int status;
 
     /**
      * @return
      */
     public String getCronograma() {
-        // TODO implement here
-        return "";
+        return this.cronograma;
     }
 
     /**
      * @param value
      */
-    public void setCronograma(Sring value ) {
-        // TODO implement here
+    public void setCronograma(String value ) {
+        this.cronograma = value;
     }
 
     /**
      * @return
      */
-    public Int getStatus() {
-        // TODO implement here
-        return null;
+    public int getStatus() {
+        return this.status;
     }
 
     /**
      * @param value
      */
-    public void setStatus(Int value) {
-        // TODO implement here
+    public void setStatus(int value) {
+        this.status = value;
     }
 
 }
