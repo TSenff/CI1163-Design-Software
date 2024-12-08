@@ -18,7 +18,6 @@ public class ListaProjeto {
      * @return
      */
     public Projeto getProjeto(int idProjeto) {
-        // TODO implement here
         return null;
     }
 
@@ -52,8 +51,6 @@ public class ListaProjeto {
      * @return
      */
     public void associarItemFiscal(ItemFiscal iF , int projetoID ) {
-        // TODO implement here
-        return null;
     }
 
     /**
@@ -70,8 +67,6 @@ public class ListaProjeto {
      * @return
      */
     public void selecionarProjeto(int idProjeto) {
-        // TODO implement here
-        return null;
     }
 
 }

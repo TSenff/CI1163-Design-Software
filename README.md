@@ -22,6 +22,11 @@ Ecomper
 Relatorio
     - tinha umas funcoes get e set sem nada (???)
 
+Ecomp
+    - cadastrarMembro(String nome, unsigned int CPF ... ) <- Precisa ser long
+    - foi adiciona o prototipo public void iniciarCadastrarAtividade();
+    - foi adicionado o prototipo iniciarCadastrarItemFiscal();
+    - foi adicionado o prototipo iniciarSelecionarProjeto();
 
 /* ---- ---- */
 

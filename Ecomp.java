@@ -16,17 +16,13 @@ public class Ecomp {
     /**
      * @return
      */
-    public ??? iniciarCadastrarProjeto() {
-        // TODO implement here
-        return null;
+    public void iniciarCadastrarProjeto() {
     }
 
     /**
      * @return
      */
-    public ??? iniciarUploadContrato() {
-        // TODO implement here
-        return null;
+    public void iniciarUploadContrato() {
     }
 
     /**
@@ -35,8 +31,11 @@ public class Ecomp {
      * @return
      */
     public String uploadContrato(String nomeArq, String caminhoArq) {
-        // TODO implement here
         return "";
+    }
+
+    public void iniciarCadastrarAtividade() {
+
     }
 
     /**
@@ -48,16 +47,13 @@ public class Ecomp {
      * @return
      */
     public Projeto cadastrarProjeto(Cliente cliente, Date diaInicio, Date prazo, String descricao, String contrato) {
-        // TODO implement here
         return null;
     }
 
     /**
      * @return
      */
-    public ??? iniciarCadastroEtapaProjeto() {
-        // TODO implement here
-        return null;
+    public void iniciarCadastroEtapaProjeto() {
     }
 
     /**
@@ -66,25 +62,19 @@ public class Ecomp {
      * @param idProjeto 
      * @return
      */
-    public ??? cadastrarEtapaProjeto(String cronograma, int status, int idProjeto) {
-        // TODO implement here
-        return null;
+    public void cadastrarEtapaProjeto(String cronograma, int status, int idProjeto) {
     }
 
     /**
      * @return
      */
-    public ??? fimEtapaProjeto() {
-        // TODO implement here
-        return null;
+    public void fimEtapaProjeto() {
     }
 
     /**
      * @return
      */
-    public ??? iniciarGerarRelatorio() {
-        // TODO implement here
-        return null;
+    public void iniciarGerarRelatorio() {
     }
 
     /**
@@ -93,7 +83,6 @@ public class Ecomp {
      * @return
      */
     public String gerarRelatorio(int tipo, Date dataFiltragem) {
-        // TODO implement here
         return "";
     }
 
@@ -105,7 +94,6 @@ public class Ecomp {
      * @return
      */
     public Atividade cadastrarAtividade(int duracao, String local, String objetivo , String resumo ) {
-        // TODO implement here
         return null;
     }
 
@@ -116,16 +104,13 @@ public class Ecomp {
      * @return
      */
     public ItemFiscal criarItemFiscal(Date data, double valor, int tipo) {
-        // TODO implement here
         return null;
     }
 
     /**
      * @return
      */
-    public ??? cadastrarMembroEcomp() {
-        // TODO implement here
-        return null;
+    public void iniciarCadastrarMembroEcomp() {
     }
 
     /**
@@ -135,8 +120,7 @@ public class Ecomp {
      * @param cargo 
      * @return
      */
-    public Ecomper cadastrarMembro(String nome, unsigned int CPF, String email, String cargo) {
-        // TODO implement here
+    public Ecomper cadastrarMembro(String nome, long CPF, String email, String cargo) {
         return null;
     }
 
@@ -146,7 +130,6 @@ public class Ecomp {
      * @return
      */
     public Ecomper cadastrarDesenvolvedor(Projeto proj , int ecomperId ) {
-        // TODO implement here
         return null;
     }
 
@@ -155,8 +138,14 @@ public class Ecomp {
      * @return
      */
     public void selecionarProjeto(int idProjeto) {
-        // TODO implement here
-        return null;
+    }
+
+    public void iniciarCadastrarItemFiscal() {
+
+    }
+
+    public void iniciarSelecionarProjeto() {
+
     }
 
 }

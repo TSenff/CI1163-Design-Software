@@ -30,8 +30,7 @@ public class ListaAtividade {
      * @param resumo 
      * @return
      */
-    public Atividade cadastrarAtuvidade(Date duracao, String local, void participantesId, String objetivo, String resumo) {
-        // TODO implement here
+    public Atividade cadastrarAtuvidade(Date duracao, String local, int participantesId, String objetivo, String resumo) { /* Esse aqui ta esquisito. so arrumei os parametros pra conseguir compilar */
         return null;
     }
 
